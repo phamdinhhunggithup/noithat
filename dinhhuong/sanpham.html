@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản Phẩm</title>
+    <style>
+        .column{
+            width: 50%;
+            margin: 0;
+        }
+        .column .sp{
+            margin: 5px;
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px purple;
+            text-align: center;
+        }
+        .sp img{
+            width: 100%;
+        }
+        .sp .ten{
+            color: blue;
+
+        }
+        .sp del{
+            color: chocolate;
+        }
+        .sp .gia{
+            color: red;
+        }
+        .sp:hover{
+        box-shadow: 5px 5px 5px red;
+        background-color: aqua;
+        }
+        body{
+            font-size: 26px;
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <div class="column">
+            <div class="sp">
+                <div class="ten"><b>Bộ Bàn Ghế Cao Cấp</b></div>
+                <img src="../IMG/sp5.jpg">
+                <div class="gia">
+                    <b><del>$150</del><br>$100</b>
+                </div>
+            </div>
+        </div>
+    </p>
+</body>
+</html>
